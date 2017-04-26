@@ -16,9 +16,11 @@ All files are interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.
 Task2
 
 #!/usr/bin/python3
+
 print('"Programming is like building a multilingual puzzle')
 
 output:
+
 "Programming is like building a multilingual puzzle
 
 ## Author
