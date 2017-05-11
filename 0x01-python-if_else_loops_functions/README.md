@@ -1,5 +1,5 @@
 # Python - if/else, loops, functions
-![school logo](https://d3c5s1hmka2e2b.cloudfront.net/uploads/topic/image/485/HBTN-Course_Report-200x200-01.png)
+![school logo](https://pbs.twimg.com/profile_images/644908719050850305/LbLzZ2vf_100x100.jpg)
 ## Description
 The project is part of Holberton school curriculum. It will help understand:
 
