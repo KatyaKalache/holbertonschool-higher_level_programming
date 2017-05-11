@@ -1,5 +1,5 @@
-# NAME OF THE PROJECT
-![school logo](https://d3c5s1hmka2e2b.cloudfront.net/uploads/topic/image/485/HBTN-Course_Report-100x100-01.png)
+# Python - if/else, loops, functions
+![school logo](https://d3c5s1hmka2e2b.cloudfront.net/uploads/topic/image/485/HBTN-Course_Report-200x200-01.png)
 ## Description
 The project is part of Holberton school curriculum. It will help understand:
 
@@ -15,19 +15,9 @@ The project is part of Holberton school curriculum. It will help understand:
 ## Compilation
 chmod u+x __file__
 ## Synopsis
-
+Almost no imported functions were used for this project. `print` is the most frequently used function in this project.
 ### __Clone repository:__
 https://github.com/KatyaKalache/holbertonschool-higher_level_programming.git
-## List of functions and system calls used
-|Custom functions  | Functionality                    |
-| ---------------- | -------------------------------- |
-|   * `_putchar`   | output of chars & strings        |
-|   * `_strcmp`    | compares two strings             |
-|   * `_putstring` | outputs strings                  |
-|   * `_print_env` | print environment                |
-|   * `_getline`   | delimited string input           |
-|   * `_strncat`   | concatenates two strings         |
-|   * `_strlen`    | calculate the length of a string |
 
 ## Author
 Ekaterina Kalache: [github account](https://github.com/KatyaKalache), [twitter](https://twitter.com/KatyaKalache)
