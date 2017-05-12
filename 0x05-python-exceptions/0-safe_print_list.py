@@ -9,5 +9,4 @@ def safe_print_list(my_list=[], x=0):
         except IndexError:
             pass
             print()
-            y = len(my_list)
-            return y
+            return i
