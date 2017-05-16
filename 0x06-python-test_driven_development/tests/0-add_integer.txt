@@ -1,0 +1,25 @@
+>>> add_integer = __import__('0-add_integer').add_integer
+
+# input 2 int
+>>> add_integer(1, 2)
+3
+
+# input 2 int, one is negative
+>>> add_integer(100, -2)
+98
+
+# input float and negative int
+>>> add_integer(100.3, -2)
+98
+
+# input float and a character
+>>> add_integer(100.3, "h")
+Traceback (most recent call last):
+	  ...
+TypeError: b must be an integer
+
+# input int and string
+>>> add_integer(10, "hello")
+Traceback (most recent call last):
+          ...
+TypeError: b must be an integer
