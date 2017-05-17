@@ -11,5 +11,19 @@ class TestMaxInteger(unittest.TestCase):
         result = max_integer(self)
         self.assertEqual(result, 3)
 
+    def max_integer(self):
+        values = [-1, -2, -3]
+        result = max_integer(self)
+        self.assertEqual(result, -1)
+
+    def max_integer(self):
+        values = ["hello", -2, -3]
+        result = max_integer(self)
+        self.assertRaises("TypeError")
+
+    def max_integer(self):
+        values = None
+        self.assertRaises("Value Error")
+
 if __name__ == '__main__':
     unittest.main()
