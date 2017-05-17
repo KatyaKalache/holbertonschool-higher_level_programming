@@ -1,0 +1,24 @@
+>>> print_square = __import__('4-print_square').print_square
+
+# input one int
+>>> print_square(2)
+##
+##
+
+# input float
+>>> print_square(2.3)
+Traceback (most recent call last):
+          ...
+TypeError: size must be an integer
+
+# input negative size
+>>> print_square(-2)
+Traceback (most recent call last):
+          ...
+ValueError: size must be >= 0
+
+# input str as size
+>>> print_square("h")
+Traceback (most recent call last):
+          ...
+TypeError: size must be an integer
