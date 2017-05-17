@@ -1,0 +1,11 @@
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+# input not str
+>>> text_indentation(12334)
+Traceback (most recent call last):
+	  ...
+TypeError: text must be a string
+
+# input str
+>>> text_indentation("hello")
+hello
