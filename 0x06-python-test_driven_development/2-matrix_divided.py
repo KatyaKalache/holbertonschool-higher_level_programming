@@ -7,7 +7,7 @@ floats")
         for j in i:
             if not isinstance(j, (int, float)):
                 raise TypeError("matrix must be a matrix (list of lists) of\
-integers/floats")
+ integers/floats")
     new_matrix = []
     if div == 0:
         raise ZeroDivisionError("division by zero")
