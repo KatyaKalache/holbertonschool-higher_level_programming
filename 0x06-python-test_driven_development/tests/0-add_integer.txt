@@ -18,6 +18,12 @@ Traceback (most recent call last):
 	  ...
 TypeError: b must be an integer
 
+# input float and a character
+>>> add_integer("h", 100.3)
+Traceback (most recent call last):
+          ...
+TypeError: a must be an integer
+
 # input int and string
 >>> add_integer(10, "hello")
 Traceback (most recent call last):
