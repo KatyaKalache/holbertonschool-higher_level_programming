@@ -83,3 +83,11 @@ OverflowError: cannot convert float infinity to integer
 Traceback (most recent call last):
 	  ...
 NameError: name 'a' is not defined
+
+# input Boolens
+>>>  add_integer(True, 1)
+2
+
+# input Boolens
+>>>  add_integer(True, False)
+1
