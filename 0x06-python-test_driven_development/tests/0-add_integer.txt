@@ -77,3 +77,9 @@ OverflowError: cannot convert float infinity to integer
 Traceback (most recent call last):
           ...
 OverflowError: cannot convert float infinity to integer
+
+# input letter
+>>> add_integer(a, 2)
+Traceback (most recent call last):
+	  ...
+NameError: name 'a' is not defined
