@@ -15,5 +15,9 @@ class TestMaxInteger(unittest.TestCase):
     def test_None(self):
         self.assertIsNone(max_integer([None]))
 
+    def test_str(self):
+        self.assertRaises(TypeError)
+        max_integer(["str"]), "failed"
+
 if __name__ == '__main__':
     unittest.main()
