@@ -23,5 +23,7 @@ class TestMaxInteger(unittest.TestCase):
     def test_int_str(self):
         self.assertEqual(max_integer(["Betty", 1, 2]), "failed")
 
+    def test_booleans(self):
+        self.assertEqual(max_integer([True, False, False]), 1)
 if __name__ == '__main__':
     unittest.main()
