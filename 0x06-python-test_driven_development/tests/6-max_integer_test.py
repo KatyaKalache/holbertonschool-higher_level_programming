@@ -15,13 +15,13 @@ class TestMaxInteger(unittest.TestCase):
     def test_None(self):
         self.assertIsNone(max_integer([None]))
 
-    @unittest.expectedFailure
     def test_str(self):
         self.assertRaises(TypeError)
         max_integer(["str"]), "failed"
 
+    @unittest.expectedFailure
     def test_int_str(self):
-        self.assertEqual(max_integer(["hi", 1, 2]), "failed")
+        self.assertEqual(max_integer(["Betty", 1, 2]), "failed")
 
 if __name__ == '__main__':
     unittest.main()
