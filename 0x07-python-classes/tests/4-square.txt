@@ -34,3 +34,21 @@ TypeError: size must be an integer
 Traceback (most recent call last):
           ...
 TypeError: size must be an integer
+
+# input float
+>>> my_square = Square(2.3)
+Traceback (most recent call last):
+          ...
+TypeError: size must be an integer
+
+# input float('inf')
+>>> my_square = Square(float('inf'))
+Traceback (most recent call last):
+          ...
+TypeError: size must be an integer
+
+# input large number(23459605465096059709565456)
+>>> my_square = Square(23459605465096059709565456)
+>>> print("Area: {} for size: {}".format(my_square.area(), my_square.size))
+Area: 550353088577964911999985396173435879758944348487936 for size: 23459605465096059709565456
+
