@@ -1,0 +1,13 @@
+>>> Square = __import__('4-square').Square
+
+# input str
+>>> my_square = Square("betty")
+Traceback (most recent call last):
+	  ...
+TypeError: size must be an integer
+
+# input None
+>>> my_square = Square(None)
+Traceback (most recent call last):
+          ...
+TypeError: size must be an integer
