@@ -1,0 +1,9 @@
+BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+# input string
+>>> bg = BaseGeometry()
+>>> try:
+...    bg.integer_validator("my_int", "hi")
+... except Exception as e:
+...    print("[{}] {}".format(e.__class__.__name__, e))
+[TypeError] my_int must be an integer
