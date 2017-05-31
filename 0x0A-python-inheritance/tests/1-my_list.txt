@@ -1,0 +1,79 @@
+>>> MyList = __import__('1-my_list').MyList
+
+# input second char
+>>> my_list = MyList()
+>>> my_list.append("h")
+>>> my_list.append(e)
+Traceback (most recent call last):
+	  ...
+NameError: name 'e' is not defined
+
+# input letter
+>>> MyList([a, -4, -2, -3, -5])
+Traceback (most recent call last):
+	  ...
+NameError: name 'a' is not defined
+
+# input nothing
+>>> my_list = MyList()
+>>> my_list.append()
+Traceback (most recent call last):
+	  ...
+TypeError: append() takes exactly one argument (0 given)
+
+# input 2 argv
+>>> my_list = MyList()
+>>> my_list.append(1, 2)
+Traceback (most recent call last):
+	  ...
+TypeError: append() takes exactly one argument (2 given)
+
+# input list
+>>> my_list = MyList([2, 1])
+>>> print(my_list)
+[2, 1]
+
+# input tuples
+>>> my_list = MyList((2, 1))
+>>> my_list.print_sorted()
+[1, 2]
+
+# input float
+>>> my_list = MyList(2.7)
+Traceback (most recent call last):
+	  ...
+TypeError: 'float' object is not iterable
+
+# input tuple
+>>> my_list = MyList((2, 7))
+>>> print(my_list)
+[2, 7]
+
+# input bool
+>>> my_list = MyList(True)
+Traceback (most recent call last):
+	  ...
+TypeError: 'bool' object is not iterable
+
+# input string
+>>> my_list = MyList("hello")
+>>> print(my_list)
+['h', 'e', 'l', 'l', 'o']
+
+# input string and print sorted
+>>> my_list = MyList("hello")
+>>> my_list.print_sorted()
+[1, 2]
+['e', 'h', 'l', 'l', 'o']
+
+# input None
+>>> my_list = MyList(None)
+Traceback (most recent call last):
+	  ...
+TypeError: 'NoneType' object is not iterable
+
+# input inf
+>>> my_list = MyList(float('inf'))
+Traceback (most recent call last):
+	  ...
+TypeError: 'float' object is not iterable
