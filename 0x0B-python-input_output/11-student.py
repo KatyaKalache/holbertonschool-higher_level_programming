@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-import json
+"""
+returns the dictionary description for JSON serialization of an object
+"""
 
 
 class Student:
@@ -9,4 +11,4 @@ class Student:
             self.age = age
     
     def to_json(self):
-        return json.loads(json.dumps(self.__dict__))
+        return self.__dict__
