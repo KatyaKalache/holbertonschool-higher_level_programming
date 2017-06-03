@@ -6,5 +6,7 @@ for JSON serialization of an object
 
 
 def class_to_json(obj):
-    if not isinstance(obj, (list, dict, str, bool, int)):
+    if hasattr(obj, '__class__'):
         return obj.__dict__
+
+
