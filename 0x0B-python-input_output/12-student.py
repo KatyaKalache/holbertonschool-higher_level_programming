@@ -18,9 +18,8 @@ class Student:
 #                print(i)
                 if hasattr(self, i):
                     match.append(i)                  
-                    return match
-#            return json.loads(json.dumps(match))
-                    
+            return json.loads(json.dumps(match))
+       
              #   else:
               #      return json.loads(json.dumps(self.__dict__, i))
         if attrs is None:
