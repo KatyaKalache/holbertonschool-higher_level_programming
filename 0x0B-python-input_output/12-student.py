@@ -12,10 +12,15 @@ class Student:
             self.age = age
 
     def to_json(self, attrs=None):
+        match = []
         if attrs is not None:
             for i in attrs:
+#                print(i)
                 if hasattr(self, i):
-                    return json.dumps(i)
+                    match.append(i)                  
+                    return match
+#            return json.loads(json.dumps(match))
+                    
              #   else:
               #      return json.loads(json.dumps(self.__dict__, i))
         if attrs is None:
