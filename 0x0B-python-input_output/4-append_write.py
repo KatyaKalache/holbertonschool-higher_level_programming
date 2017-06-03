@@ -6,12 +6,6 @@ returns the number of characters added
 
 
 def append_write(filename="", text=""):
-    #count = 0
     with open(filename, "a") as f:
         count = f.write(text)
         return count
-   # with open(filename, encoding='UTF-8') as f:
-    #    for line in f:
-     #       for nb_characters in line:
-      #          count += 1
-       #     return count
