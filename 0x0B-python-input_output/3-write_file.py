@@ -2,7 +2,7 @@
 def write_file(filename="", text=""):
     count = 0
     with open(filename, "w",  encoding='UTF-8') as f:
-        f.write("Holberton School is so cool!\n")
+        f.write(text)
 
     with open("my_first_file.txt", "r") as f:
         for line in f:
