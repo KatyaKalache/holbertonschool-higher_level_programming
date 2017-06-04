@@ -25,7 +25,7 @@ class Student:
     def reload_from_json(self, json):
         if hasattr(json, "first_name"):
             setattr(self.first_name, first_name)
-        if hasattr(json, "last_name"):
-            setattr(self.last_name, last_name)
-        if hasattr(json, "age"):
-            setattr(self.age, age)
+            if hasattr(json, "last_name"):
+                setattr(self.last_name, last_name)
+                if hasattr(json, "age"):
+                    setattr(self.age, age)
