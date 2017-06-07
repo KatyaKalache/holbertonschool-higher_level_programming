@@ -23,9 +23,9 @@ class Student:
             return self.__dict__
 
     def reload_from_json(self, json):
-        if hasattr(json, "first_name"):
-            setattr(self.first_name, first_name)
-            if hasattr(json, "last_name"):
-                setattr(self.last_name, last_name)
-                if hasattr(json, "age"):
-                    setattr(self.age, age)
+        if "first_name" in json:
+            self.first_name = json["first_name"]
+        if "last_name" in json:
+            self.last_name = json["last_name"]
+        if "age" in json:
+            self.age = json["age"]
