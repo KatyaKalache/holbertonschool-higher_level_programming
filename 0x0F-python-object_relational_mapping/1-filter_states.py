@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# lists all states from the database hbtn_0e_0_usa
+# lists all states from the database hbtn_0e_0_usa that start with N
 if __name__ == "__main__":
     import MySQLdb
     import sys
@@ -7,7 +7,7 @@ if __name__ == "__main__":
                          passwd=sys.argv[2], db=sys.argv[3])
     cursor = db.cursor()
     cursor.execute(
-        "SELECT id, name FROM states WHERE name like 'N%' ORDER BY id ASC")
+        "SELECT id, name FROM states WHERE name LIKE 'N%' ORDER BY id ASC")
     data = cursor.fetchone()
     while data is not None:
         print(data)
