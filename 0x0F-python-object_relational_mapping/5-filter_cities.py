@@ -13,9 +13,10 @@ if __name__ == "__main__":
         ON state_id=states.id \
         WHERE states.name='{}' \
         ORDER BY cities.id ASC".format(sys.argv[4]))
-    data = cursor.fetchone()
-    while data is not None:
-        print("".join(map(str, data)), end=", ")
-        data = cursor.fetchone()
+    data = cursor.fetchall()
+    result=[]
+    for i in data:
+        result.append(i[0])
+    print(", ".join(result))
     cursor.close()
     db.close()
