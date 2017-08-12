@@ -15,5 +15,5 @@ if __name__ == "__main__":
     try:
         print("{}: {}".format(s.id, s.name))
     except:
-        print("")
+        print("Nothing")
     session.close()
