@@ -14,7 +14,7 @@ if __name__ == "__main__":
         WHERE states.name='{}' \
         ORDER BY cities.id ASC".format(sys.argv[4]))
     data = cursor.fetchall()
-    result=[]
+    result = []
     for i in data:
         result.append(i[0])
     print(", ".join(result))
