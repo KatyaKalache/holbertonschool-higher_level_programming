@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# retrieving request id
 import urllib.request
 import sys
 
