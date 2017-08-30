@@ -7,4 +7,4 @@ if __name__ == "__main__":
     if req.status_code < 399:
         print(req.text)
     else:
-        print("Error code: ", req.status_code)
+        print("Error code:", req.status_code)
