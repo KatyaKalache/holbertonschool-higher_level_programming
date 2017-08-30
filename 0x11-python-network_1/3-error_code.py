@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-#!/usr/bin/python3
 import urllib.request
 from sys import argv
 from urllib.error import HTTPError
