@@ -4,5 +4,5 @@ const messageNotFound = 'No argument';
 if (process.argv[2] === undefined) {
   console.log(messageNotFound);
 } else {
-  console.log(String(process.argv.slice(2)));
+  console.log(String(process.argv[2]));
 }
