@@ -1,4 +1,4 @@
-#!/usr/bin/env nodejs
+#!/usr/bin/node
 // Prints a message depending of the number of arguments passed
 const messageFound = 'Argument found';
 const messageNotFound = 'No argument';

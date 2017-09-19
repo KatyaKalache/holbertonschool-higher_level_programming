@@ -1,4 +1,4 @@
-#!/usr/bin/env nodejs
+#!/usr/bin/node
 // Prints 3 lines
 const message1 = 'C is fun\n';
 const message2 = 'Python is cool\n';
