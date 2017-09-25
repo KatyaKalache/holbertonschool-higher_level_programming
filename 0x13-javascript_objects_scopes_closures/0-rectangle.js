@@ -1,3 +1,3 @@
 #!/usr/bin/node
 // Declares an empty class Rectangle
-export.Rectangle function Rectangle() = {};
+exports.Rectangle = function Rectangle () {};
