@@ -1,7 +1,7 @@
 #!/usr/bin/node
 // Returns status code
 const request = require('request');
-const url = 'http://swapi.co/api/films/';
+const url = process.argv[2];
 const wedgeUrl = 'https://swapi.co/api/people/18/';
 let i = 0;
 let matchCount = 0;
