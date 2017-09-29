@@ -1,6 +1,7 @@
 #!/usr/bin/node
+// Converts a number from base 10 to another base
 exports.converter = function (base) {
-  function (num) {
-    return number.tostring(base);
-  }
-};
+  return function (num) {
+    return num.toString(base);
+  };
+}
