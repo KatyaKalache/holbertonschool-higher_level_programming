@@ -1,3 +1,3 @@
-$('div').click(function() {
-  $('div').css('color', 'red')
+$('div').click(function () {
+  $('div').css('color', 'red');
 });
