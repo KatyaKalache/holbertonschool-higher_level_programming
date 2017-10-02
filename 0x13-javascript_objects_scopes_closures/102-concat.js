@@ -9,7 +9,7 @@ fs.readFile(process.argv[2], 'utf8', function (err, dataA) {
     if (err) {
       return console.log(err);
     }
-    let result = dataA + '\n' + dataB + '\n';
+    let result = dataA + dataB;
     fs.writeFile(process.argv[4], result, 'utf8', function (err) {
       if (err) {
         return console.log(err);
