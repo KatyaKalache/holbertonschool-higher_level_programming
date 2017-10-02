@@ -5,5 +5,6 @@ exports.addMeMaybe = function (number, theFunction) {
   for (let i = 0; i <= number; i++) {
     j = j + 1;
   }
-  console.log(j);
+  theFunction(j);
+  return (j);
 };
