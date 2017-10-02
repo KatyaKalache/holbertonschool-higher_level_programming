@@ -1,4 +1,4 @@
-!/usr/bin/node
+#!/usr/bin/node
 // Imports an array and computes a new array
 let list = require('./100-data.js').list;
 let array = [];
