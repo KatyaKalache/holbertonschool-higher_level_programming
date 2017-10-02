@@ -7,3 +7,4 @@ let new_list = list.map(function (i, j) {
   let value = i*j;
   array.push(value);
 });
+console.log(array);
