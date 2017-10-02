@@ -9,6 +9,10 @@ fs.readFile(process.argv[2], 'utf8', function read (err, dataA) {
     if (err) {
       return console.log(err);
     }
-    fs.writeFile(process.argv[4], dataA + '\n' + dataB);
+    fs.writeFile(process.argv[4], dataA + '\n' + dataB, 'utf8', function (err, data) {
+      if (err) {
+        return console.log(err);
+      }
+    });
   });
 });
